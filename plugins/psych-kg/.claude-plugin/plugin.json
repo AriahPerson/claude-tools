@@ -1,0 +1,9 @@
+{
+  "name": "psych-kg",
+  "version": "0.1.0",
+  "description": "Consensus psychology knowledge graph — 120 concepts with definitions, mechanisms, citations, and cross-references across personality, attachment, cognition, learning, stress/trauma, emotion regulation, mindfulness, motivation, and psychotherapy.",
+  "author": {
+    "name": "Ariah"
+  },
+  "keywords": ["psychology", "knowledge-graph", "clinical", "research", "CBT", "ACT", "attachment"]
+}

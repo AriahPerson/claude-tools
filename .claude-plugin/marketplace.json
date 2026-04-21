@@ -1,0 +1,13 @@
+{
+  "name": "claude-tools",
+  "owner": {
+    "name": "Ariah Van Os"
+  },
+  "plugins": [
+    {
+      "name": "psych-kg",
+      "source": "./plugins/psych-kg",
+      "description": "Consensus psychology knowledge graph — 120 concepts with definitions, mechanisms, citations, and cross-references."
+    }
+  ]
+}
