@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "title": "Filipino Culture Knowledge Graph",
+  "generated_on": "2026-04-23",
+  "design_principles": [
+    "Prioritize regional specificity over pan-Filipino generalization.",
+    "Distinguish Bisayan, Ilocano, Kapampangan, Bicolano, and Bangsamoro/Mindanao perspectives from Tagalog-centric framings.",
+    "Represent diaspora experience (Filipino-American, OFW, balikbayan) as distinct contexts, not deviations.",
+    "Exclude or explicitly mark colonial-era deficit framings of Filipino traits.",
+    "Exclude Orientalist or essentialist characterizations that flatten cultural complexity.",
+    "Prefer scholarly ethnographic and cultural studies sources over travel writing or pop-anthropology.",
+    "Keep romanticized glosses as aliases or caution notes rather than primary definitions.",
+    "Preserve stable canonical slugs for cross-referencing and KG integration."
+  ],
+  "canonical_aliases": {},
+  "explicit_exclusions_from_primary_nodes": [
+    "colonial-era characterizations of Filipino passivity or fatalism as inherent traits",
+    "untextured 'Filipino hospitality' as a simple personality attribute",
+    "hiya as equivalent to Western shame without relational context",
+    "utang na loob as simple debt or obligation without reciprocity dynamics",
+    "bahala na as pure fatalism without its active acceptance component",
+    "pan-Filipino generalizations that treat Tagalog norms as universal"
+  ],
+  "domains": [
+    {
+      "id": "core_values",
+      "label": "Core Filipino values and ethics",
+      "description": "Foundational relational and ethical values that structure Filipino social life: kapwa, loob, hiya, utang na loob, bahala na, amor propio, and related constructs."
+    },
+    {
+      "id": "family_kinship",
+      "label": "Family and kinship structures",
+      "description": "Extended family (pamilya), compadrazgo/godparent system (ninong/ninang), fictive kin, balikbayan dynamics, OFW family separation, and filial obligation patterns."
+    },
+    {
+      "id": "social_harmony",
+      "label": "Social harmony and conflict dynamics",
+      "description": "Pakikisama, SIR (smooth interpersonal relations), indirect communication, conflict avoidance, face-saving, and how disagreement surfaces in Filipino social contexts."
+    },
+    {
+      "id": "language_communication",
+      "label": "Language and communication patterns",
+      "description": "Filipino/Tagalog, regional languages (Cebuano, Waray, Hiligaynon, Ilocano, Kapampangan, etc.), Taglish code-switching, honorifics (po/opo), and language as identity marker."
+    },
+    {
+      "id": "regional_ethnic",
+      "label": "Regional and ethnic cultures",
+      "description": "Bisayan/Visayan culture (Cebuano, Waray, Hiligaynon), Ilocano, Kapampangan, Bicolano, Maranao/Bangsamoro, Igorot/Cordilleran — distinct norms, values, and identities within the Philippines."
+    },
+    {
+      "id": "religion_spirituality",
+      "label": "Religion and folk spirituality",
+      "description": "Filipino folk Catholicism, syncretic practices, anting-anting (talismans), folk healing (albularyo), Santacruzan, patron saint devotion, fiesta as religious practice, and folk belief systems."
+    },
+    {
+      "id": "colonial_legacy",
+      "label": "Colonial legacy and historical consciousness",
+      "description": "Spanish colonial impact (language, religion, social hierarchy), American colonial legacy (education system, English, pop culture), Japanese occupation trauma, and how colonial history shapes present-day identity and institutions."
+    },
+    {
+      "id": "diaspora_identity",
+      "label": "Filipino-American and diaspora identity",
+      "description": "1st generation, 1.5 generation (1G), and 2nd generation dynamics; FOB vs. Fil-Am tension; balikbayan identity; OFW experience; identity negotiation across cultures; 'not Filipino enough' phenomenon."
+    },
+    {
+      "id": "food_material",
+      "label": "Food, fiesta, and material culture",
+      "description": "Food as relational practice (kain na), fiesta culture, regional cuisines (Bisayan, Ilocano, etc.), the balikbayan box as material expression of diaspora care, and gift-giving norms."
+    },
+    {
+      "id": "gender_sexuality",
+      "label": "Gender, sexuality, and family roles",
+      "description": "Gender roles in Filipino family life, bakla identity (distinct from Western gay identity), transgender in Filipino cultural context, the babaylan tradition, contemporary LGBTQ+ dynamics, and intersections with Catholicism."
+    }
+  ],
+  "concept_count": 0,
+  "concepts": []
+}
