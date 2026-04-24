@@ -1,52 +1,76 @@
 # filipino-culture-kg
 
 A Claude skill backed by a curated knowledge graph of Filipino cultural concepts.
-Each concept is populated from ethnographic research, cultural studies scholarship,
-and primary community sources — grounded in nuance, with romanticized or colonial
-framings explicitly excluded or marked.
 
-## What's in it
+Current status: seeded and operational (25 concepts), with high-priority hubs for regional cultures,
+religion/spirituality, colonial legacy, diaspora identity, and gender/sexuality.
 
-Concepts across 10 domains:
+## Scope and priorities
 
+This KG prioritizes:
+- regional specificity over Manila/Tagalog flattening
+- Bisaya/Visayan, Ilocano, Kapampangan, and Bangsamoro/Mindanao coverage
+- diaspora and transnational family dynamics as first-class, not peripheral
+- caution flags for contested/romanticized categories
+
+## Current concept coverage
+
+10 domains are scaffolded; 7 are currently populated.
+
+Populated domains:
 - Core Filipino values and ethics
-- Family and kinship structures
 - Social harmony and conflict dynamics
-- Language and communication patterns
 - Regional and ethnic cultures
 - Religion and folk spirituality
 - Colonial legacy and historical consciousness
 - Filipino-American and diaspora identity
-- Food, fiesta, and material culture
 - Gender, sexuality, and family roles
 
-Each concept includes: dense definition (150-200 words), cultural context (historical/sociological
-origin), functional role in social life, common expressions or behavioral markers, regional
-variation (Bisayan, Ilocano, Kapampangan, Bicolano, Mindanao/Bangsamoro), diaspora adaptation
-(how Filipino-Americans experience or renegotiate the concept), boundary conditions, common
-misunderstandings, related/contrast concepts (cross-referenced), scholarly notes on contested
-interpretations, and 3-6 citations.
+Pending domains:
+- Family and kinship structures
+- Language and communication patterns
+- Food, fiesta, and material culture
+
+For an up-to-date slug list, see:
+- `skills/filipino-culture-kg/references/concept_index.md`
+
+## High-priority concepts now included
+
+Core/social-harmony hubs now available:
+- `hiya`
+- `utang_na_loob`
+- `kapwa`
+- `pakikisama`
+- `smooth_interpersonal_relations` (aliases: `sir`, `sip`)
+
+These complement existing hubs such as:
+- `transnational_family`
+- `bisaya_visayan`
+- `bangsamoro`
+- `balikbayan`
+- `colonial_mentality`
 
 ## Usage
 
-Once installed, Claude will use this skill automatically when answering questions about
-Filipino cultural concepts. You can also trigger it explicitly:
+Run lookups directly:
 
-- "What is the cultural mechanism behind utang na loob?"
-- "How does hiya differ from shame in a Western sense?"
-- "How do Bisayan social norms differ from Tagalog norms?"
-- "How does pakikisama manifest in Filipino-American workplaces?"
-- "What does the scholarship say about kapwa as an ethical foundation?"
+```bash
+python3 skills/filipino-culture-kg/scripts/lookup.py --index
+python3 skills/filipino-culture-kg/scripts/lookup.py hiya
+python3 skills/filipino-culture-kg/scripts/lookup.py --fields utang_na_loob definition_dense,related_concepts,citations
+python3 skills/filipino-culture-kg/scripts/lookup.py --search "smooth interpersonal relations"
+```
 
-## Subcultures covered
+## Data quality and interpretation
 
-- **Bisayan/Visayan** — Cebuano, Waray, Hiligaynon-speaking regions; distinct from Tagalog-centric frames
-- **Filipino-American** — 1st, 1.5, and 2nd generation dynamics; balikbayan identity; FOB/Fil-Am tensions
-- Regional cultures: Ilocano, Kapampangan, Bicolano, Maranao/Bangsamoro, Igorot/Cordilleran
+- Concepts are marked `populated` or `populated_with_caution`.
+- `historical_or_contested` and `tagalog_centric` flags are surfaced in lookup output.
+- This seed emphasizes usable conceptual coverage first; deeper per-concept fields can be expanded in later enrichment passes.
 
-## Quality standard
+## Public-repo data hygiene (important)
 
-Concepts are marked `populated` (grounded in scholarship) or `populated_with_caution`
-(contested, romanticized, or primarily based on a single regional/Tagalog-centric source).
-Explicitly excluded or marked: colonial-era characterizations of Filipino traits as deficits,
-untextured "Filipino values" generalizations that erase regional variation, Orientalist framings.
+This plugin lives in a public repo context (`/claude-tools/`).
+Do not commit private chat logs, personal identifiers, credentials, or raw sensitive evidence files.
+
+Use only de-identified, scholarly/community-citable concept data in this plugin.
+Private/personal analysis artifacts should stay in private workspaces (e.g., `inanna`), not in public plugin files.

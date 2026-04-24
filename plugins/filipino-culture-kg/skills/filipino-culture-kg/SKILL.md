@@ -22,16 +22,15 @@ description: >
 A curated knowledge graph of Filipino cultural concepts populated from ethnographic research,
 cultural studies scholarship, and community-based sources — prioritizing nuance, regional
 specificity, and diaspora experience over Tagalog-centric or romanticized generalizations.
-Every concept has: a 150-200 word dense definition, cultural context (historical/sociological
-origin), functional role in social life, common expressions or behavioral markers, regional
-variation, diaspora adaptation, boundary conditions, common misunderstandings, related and
-contrast concepts (all cross-referenced by slug), scholarly notes on contested interpretations,
-and 3-6 citations with source quality notes.
+
+Current data is a high-quality seed set focused on canonical concept coverage and graph utility.
+Concept records currently include concise definitions, related/contrast concept links,
+and citations/source notes, with status flags for contested areas.
 
 **Quality standard:** Concepts are marked `populated` (grounded in scholarship) or
-`populated_with_caution` (contested, romanticized, or primarily Tagalog-centric in sourcing).
+`populated_with_caution` (contested, romanticized, or still needing deeper multi-source expansion).
 Explicitly excluded or marked as contested: colonial-era deficit framing of Filipino traits,
-untextured pan-Filipino generalizations that erase regional variation, Orientalist or
+untextured pan-Filipino generalizations that erase regional variation, and Orientalist or
 essentialist characterizations.
 
 **Database location:** Bundled at `skills/filipino-culture-kg/filipino_culture_kg.json`. Resolve order:
@@ -111,30 +110,36 @@ scholarship shows, anchor to the covered constructs with their full complexity.
 pan-Philippine, and surface the Bisayan/Visayan, Ilocano, or other regional perspective
 when available.
 
+## Public-data safety for this plugin
+
+This skill ships in a public plugin repository context.
+Do not add raw private chat logs, credentials, SSNs, passport numbers, or personal contact data
+to plugin files (`SKILL.md`, `references/*`, JSON database).
+
+Only include de-identified concept content and citeable scholarly/community sources.
+
 ---
 
 ## Concept index (by domain)
 
 Full table in `references/concept_index.md`. Quick slug reference:
 
-*(Database not yet populated — concepts will appear here as entries are added.)*
+**Core Filipino values and ethics:** `hiya`, `kapwa`, `utang_na_loob`
 
-**Core Filipino values:** *(pending)*
+**Family and kinship structures:** *(pending)*
 
-**Family and kinship:** *(pending)*
+**Social harmony and conflict dynamics:** `pakikisama`, `smooth_interpersonal_relations`
 
-**Social harmony and conflict dynamics:** *(pending)*
+**Language and communication patterns:** *(pending)*
 
-**Language and communication:** *(pending)*
+**Regional and ethnic cultures:** `bangsamoro`, `bisaya_visayan`, `ilocano`, `kapampangan`
 
-**Regional and ethnic cultures:** *(pending)*
+**Religion and folk spirituality:** `anting_anting`, `babaylan`, `bangsamoro_islam_adat`, `folk_catholicism`
 
-**Religion and folk spirituality:** *(pending)*
+**Colonial legacy:** `benevolent_assimilation`, `colonial_mentality`, `mestiza_privilege`, `settler_colonialism_mindanao`
 
-**Colonial legacy and historical consciousness:** *(pending)*
-
-**Filipino-American and diaspora identity:** *(pending)*
+**Filipino-American:** `balikbayan`, `filipinx`, `overseas_filipino_worker`, `transnational_family`
 
 **Food, fiesta, and material culture:** *(pending)*
 
-**Gender, sexuality, and family roles:** *(pending)*
+**Gender, sexuality, and family roles:** `asog`, `bakla`, `bayot`, `tomboy_philippines`

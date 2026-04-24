@@ -73,6 +73,1333 @@
       "description": "Gender roles in Filipino family life, bakla identity (distinct from Western gay identity), transgender in Filipino cultural context, the babaylan tradition, contemporary LGBTQ+ dynamics, and intersections with Catholicism."
     }
   ],
-  "concept_count": 0,
-  "concepts": []
+  "concept_count": 25,
+  "concepts": [
+    {
+      "slug": "hiya",
+      "label": "Hiya",
+      "canonical_name": "Hiya",
+      "aliases": [],
+      "status": "populated_with_caution",
+      "parent_domain_id": "core_values",
+      "parent_domain_label": "Core Filipino values and ethics",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A relational moral-affective regulator tied to propriety, social face, and accountability to others, not equivalent to purely intrapsychic Western shame.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "pakikisama",
+          "smooth_interpersonal_relations",
+          "kapwa",
+          "utang_na_loob"
+        ],
+        "contrast_concepts": [
+          "western_shame_psychology"
+        ],
+        "source_quality_notes": "Seeded concept for first-pass operational coverage; refine with page-level citations and regional examples in next pass.",
+        "scholarly_notes": "Frequently mistranslated as mere shyness or shame; context and relationship matter.",
+        "citations": [
+          {
+            "authors": "Virgilio G. Enriquez",
+            "year": "1992",
+            "title": "From Colonial to Liberation Psychology",
+            "source_type": "book",
+            "why_it_was_used": "Core framing of hiya within indigenous Filipino social psychology."
+          },
+          {
+            "authors": "Rolando M. Gripaldo",
+            "year": "2005",
+            "title": "Filipino Cultural Traits",
+            "source_type": "journal article",
+            "why_it_was_used": "Discusses common debates and misreadings of hiya in social life."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kapwa",
+      "label": "Kapwa",
+      "canonical_name": "Kapwa",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "core_values",
+      "parent_domain_label": "Core Filipino values and ethics",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A relational ethical orientation in which selfhood is understood through shared personhood with others (hindi ibang-tao / hindi-iba-sa-akin), making social obligation and mutual recognition foundational rather than optional.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "hiya",
+          "utang_na_loob",
+          "pakikisama",
+          "transnational_family"
+        ],
+        "contrast_concepts": [
+          "hyper_individualism"
+        ],
+        "source_quality_notes": "Seeded concept for first-pass operational coverage; refine with page-level citations and regional examples in next pass.",
+        "scholarly_notes": "Should be treated as a family of relational practices with regional inflections, not a static trait.",
+        "citations": [
+          {
+            "authors": "Virgilio G. Enriquez",
+            "year": "1992",
+            "title": "From Colonial to Liberation Psychology",
+            "source_type": "book",
+            "why_it_was_used": "Foundational articulation of kapwa in Sikolohiyang Pilipino."
+          },
+          {
+            "authors": "K. M. Pe-Pua and Elizabeth Protacio-Marcelino",
+            "year": "2000",
+            "title": "Sikolohiyang Pilipino (Filipino Psychology): A Legacy of Virgilio G. Enriquez",
+            "source_type": "journal article",
+            "why_it_was_used": "Widely used synthesis of Filipino indigenous psychology concepts."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "utang_na_loob",
+      "label": "Utang na loob",
+      "canonical_name": "Utang na loob",
+      "aliases": [
+        "debt_of_gratitude"
+      ],
+      "status": "populated",
+      "parent_domain_id": "core_values",
+      "parent_domain_label": "Core Filipino values and ethics",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A durable reciprocal debt of gratitude embedded in social relations and moral memory, exceeding transactional debt and often shaping long-term loyalty, assistance, and deference expectations.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "kapwa",
+          "hiya",
+          "pakikisama",
+          "transnational_family"
+        ],
+        "contrast_concepts": [
+          "purely_contractual_obligation"
+        ],
+        "source_quality_notes": "Seeded concept for first-pass operational coverage; refine with page-level citations and regional examples in next pass.",
+        "scholarly_notes": "Should be modeled as reciprocal moral economy, not one-way patronage by default.",
+        "citations": [
+          {
+            "authors": "Frank Lynch",
+            "year": "1973",
+            "title": "Social Acceptance Reconsidered",
+            "source_type": "book chapter",
+            "why_it_was_used": "Classic treatment of reciprocity and social acceptance dynamics in the Philippines."
+          },
+          {
+            "authors": "Virgilio G. Enriquez",
+            "year": "1992",
+            "title": "From Colonial to Liberation Psychology",
+            "source_type": "book",
+            "why_it_was_used": "Situates utang na loob within Filipino relational ethics rather than economics."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pakikisama",
+      "label": "Pakikisama",
+      "canonical_name": "Pakikisama",
+      "aliases": [],
+      "status": "populated_with_caution",
+      "parent_domain_id": "social_harmony",
+      "parent_domain_label": "Social harmony and conflict dynamics",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A practice of maintaining social cohesion through accommodation, tact, and cooperative adjustment, often balancing personal preference against group harmony.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "smooth_interpersonal_relations",
+          "hiya",
+          "kapwa",
+          "utang_na_loob"
+        ],
+        "contrast_concepts": [
+          "direct_confrontation_norm"
+        ],
+        "source_quality_notes": "Seeded concept for first-pass operational coverage; refine with page-level citations and regional examples in next pass.",
+        "scholarly_notes": "Can support cooperation or silence dissent depending on power asymmetry.",
+        "citations": [
+          {
+            "authors": "Frank Lynch",
+            "year": "1973",
+            "title": "Social Acceptance Reconsidered",
+            "source_type": "book chapter",
+            "why_it_was_used": "Seminal framing of social acceptance and pakikisama in low-conflict interaction styles."
+          },
+          {
+            "authors": "Myrna S. Fellizar",
+            "year": "1994",
+            "title": "Pakikisama: A Philippine value in social interaction",
+            "source_type": "journal article",
+            "why_it_was_used": "Focused treatment of pakikisama as social process."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "smooth_interpersonal_relations",
+      "label": "Smooth Interpersonal Relations (SIR/SIP)",
+      "canonical_name": "Smooth Interpersonal Relations",
+      "aliases": [
+        "sir",
+        "sip"
+      ],
+      "status": "populated",
+      "parent_domain_id": "social_harmony",
+      "parent_domain_label": "Social harmony and conflict dynamics",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A cluster of interactional practices (e.g., pakikisama, euphemism, indirect repair, face-work) that reduce overt interpersonal friction and preserve workable social ties in Filipino settings.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "pakikisama",
+          "hiya",
+          "amor_propio",
+          "kapwa"
+        ],
+        "contrast_concepts": [
+          "agonistic_directness"
+        ],
+        "source_quality_notes": "Seeded concept for first-pass operational coverage; refine with page-level citations and regional examples in next pass.",
+        "scholarly_notes": "Useful analytic lens but should not erase conflict, coercion, or strategic noncompliance.",
+        "citations": [
+          {
+            "authors": "Frank Lynch",
+            "year": "1973",
+            "title": "Social Acceptance Reconsidered",
+            "source_type": "book chapter",
+            "why_it_was_used": "Canonical source for SIR as an analytic construct in Philippine social interaction."
+          },
+          {
+            "authors": "Mary Racelis Hollnsteiner",
+            "year": "1963",
+            "title": "Reciprocity in the Lowland Philippines",
+            "source_type": "journal article",
+            "why_it_was_used": "Supports relational and reciprocity mechanisms often grouped under SIR dynamics."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bangsamoro",
+      "label": "Bangsamoro",
+      "canonical_name": "Bangsamoro",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "regional_ethnic",
+      "parent_domain_label": "Regional and ethnic cultures",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A modern ethnopolitical identity connecting diverse Moro peoples of Mindanao and the Sulu archipelago through shared histories of Islam, anti-colonial resistance, and self-determination, while retaining internal ethnic and class differences.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "moro",
+          "mindanao",
+          "bangsamoro_islam_adat",
+          "settler_colonialism_mindanao"
+        ],
+        "contrast_concepts": [
+          "lumad",
+          "christian_settler",
+          "unitary_nationalism"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Thomas M. McKenna",
+            "year": "1998",
+            "title": "Muslim Rulers and Rebels",
+            "source_type": "book",
+            "why_it_was_used": "Core ethnographic and political history of Moro politics."
+          },
+          {
+            "authors": "Bangsamoro Organic Law",
+            "year": "2018",
+            "title": "Preamble and foundational provisions",
+            "source_type": "legal text",
+            "why_it_was_used": "Authoritative basis for contemporary Bangsamoro political identity."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bisaya_visayan",
+      "label": "Bisaya / Visayan",
+      "canonical_name": "Bisaya / Visayan",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "regional_ethnic",
+      "parent_domain_label": "Regional and ethnic cultures",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A meta-ethnolinguistic formation spanning Cebuano, Hiligaynon, Waray, and related groups across the Visayas and much of Mindanao, where identity is shaped by multilingualism, migration, and regional literary/public cultures rather than a single unified language or tradition.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "cebuano",
+          "hiligaynon",
+          "waray",
+          "bayot",
+          "smooth_interpersonal_relations",
+          "pakikisama",
+          "hiya"
+        ],
+        "contrast_concepts": [
+          "tagalog_centrality",
+          "filipino_nationalism"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Resil B. Mojares",
+            "year": "2023",
+            "title": "Bisayan studies",
+            "source_type": "journal article",
+            "why_it_was_used": "Frames Bisayan studies as a heterogeneous regional field rather than a single culture."
+          },
+          {
+            "authors": "David Zorc",
+            "year": "1977",
+            "title": "The Bisayan Dialects of the Philippines",
+            "source_type": "book",
+            "why_it_was_used": "Classic linguistic mapping of Bisayan language diversity."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ilocano",
+      "label": "Ilocano",
+      "canonical_name": "Ilocano",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "regional_ethnic",
+      "parent_domain_label": "Regional and ethnic cultures",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "An ethnolinguistic identity rooted in the Ilocos region but extended through internal migration and diaspora, including Hawaiʻi, where language maintenance, kin obligation, and heritage education shape contemporary Ilocano self-understanding.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "amianan_north",
+          "heritage_language",
+          "transnational_family"
+        ],
+        "contrast_concepts": [
+          "tagalog_centrality",
+          "regional_language_shift"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Aurelio S. Agcaoili",
+            "year": "2015",
+            "title": "Paka(sarita)an: On Ilokano Language, Identity, and Heritage Education",
+            "source_type": "book",
+            "why_it_was_used": "Grounds Ilocano identity in language politics and heritage work."
+          },
+          {
+            "authors": "Aurelio S. Agcaoili",
+            "year": "2017",
+            "title": "Paka(sarita)an in the Ilokano: Reclaiming a Native Tongue",
+            "source_type": "journal article",
+            "why_it_was_used": "Supports contemporary discourse on Ilokano language reclamation."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kapampangan",
+      "label": "Kapampangan",
+      "canonical_name": "Kapampangan",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "regional_ethnic",
+      "parent_domain_label": "Regional and ethnic cultures",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A Central Luzon ethnolinguistic formation marked by strong regional self-consciousness and deep links to colonial and national politics, alongside ongoing language-shift pressures and revitalization efforts.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "pampanga",
+          "language_revival",
+          "culinary_prestige"
+        ],
+        "contrast_concepts": [
+          "filipino_only_schooling",
+          "regional_marginalization"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Michael Raymon M. Pangilinan",
+            "year": "2013",
+            "title": "Kapampangan: A Problem of Identity, Language and Culture",
+            "source_type": "essay/lecture",
+            "why_it_was_used": "Widely cited synthesis of identity and language concerns."
+          },
+          {
+            "authors": "John A. Larkin",
+            "year": "1993",
+            "title": "The Pampangans: Colonial Society in a Philippine Province",
+            "source_type": "book",
+            "why_it_was_used": "Historical foundation for Kapampangan social formation."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "anting_anting",
+      "label": "Anting-anting",
+      "canonical_name": "Anting-anting",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "religion_spirituality",
+      "parent_domain_label": "Religion and folk spirituality",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A popular amulet complex associated with protection, charisma, healing, and power, often blending Christian symbols with esoteric and vernacular beliefs and at times linked to millenarian or revolutionary politics.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "agimat",
+          "orasyon",
+          "folk_catholicism",
+          "revolutionary_millenarianism"
+        ],
+        "contrast_concepts": [
+          "rationalist_secularism"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Axel Borchgrevink",
+            "year": "2000",
+            "title": "The Power of Anting-anting",
+            "source_type": "journal article",
+            "why_it_was_used": "Focused treatment of amulet efficacy and social meaning."
+          },
+          {
+            "authors": "Reynaldo C. Ileto",
+            "year": "1979",
+            "title": "Pasyon and Revolution",
+            "source_type": "book",
+            "why_it_was_used": "Contextualizes vernacular religiosity in popular political movements."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "babaylan",
+      "label": "Babaylan",
+      "canonical_name": "Babaylan",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "religion_spirituality",
+      "parent_domain_label": "Religion and folk spirituality",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A category of indigenous ritual specialist, healer, spirit medium, and community authority—especially a Visayan term, though many Philippine societies have different local labels for related roles.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "asog",
+          "folk_healing",
+          "anito",
+          "decolonial_spirituality"
+        ],
+        "contrast_concepts": [
+          "clerical_catholicism",
+          "missionization"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "Useful but often overgeneralized as a pan-Philippine category.",
+        "citations": [
+          {
+            "authors": "Grace Nono",
+            "year": "2021",
+            "title": "Babaylan Sing Back",
+            "source_type": "book",
+            "why_it_was_used": "Contemporary scholarship and practice-oriented framing of babaylan traditions."
+          },
+          {
+            "authors": "Carolyn Brewer",
+            "year": "2004",
+            "title": "Holy Confrontation",
+            "source_type": "book",
+            "why_it_was_used": "Historical treatment of babaylan in early colonial encounters."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bangsamoro_islam_adat",
+      "label": "Bangsamoro Islam / adat",
+      "canonical_name": "Bangsamoro Islam / adat",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "religion_spirituality",
+      "parent_domain_label": "Religion and folk spirituality",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "In Moro societies, Islamic practice is historically layered through relations among faith, adat (custom), kinship, local authority, and reformist currents rather than a single uniform orthodoxy.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "bangsamoro",
+          "sharia",
+          "sultanate",
+          "ulama"
+        ],
+        "contrast_concepts": [
+          "folk_catholicism",
+          "secular_nationalism"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Thomas M. McKenna",
+            "year": "1998",
+            "title": "Muslim Rulers and Rebels",
+            "source_type": "book",
+            "why_it_was_used": "Detailed account of Islam, authority, and local politics in Cotabato."
+          },
+          {
+            "authors": "Cesar Adib Majul",
+            "year": "1973",
+            "title": "Muslims in the Philippines",
+            "source_type": "book",
+            "why_it_was_used": "Foundational historical framing of Islam in the southern Philippines."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "folk_catholicism",
+      "label": "Folk Catholicism",
+      "canonical_name": "Folk Catholicism",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "religion_spirituality",
+      "parent_domain_label": "Religion and folk spirituality",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "Lived Catholic practice in the Philippines that often combines sacramental life and saint devotion with local ritual logics including healing, vows, spirit mediation, and devotional economies beyond official doctrine.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "fiesta",
+          "panata",
+          "hilot",
+          "anting_anting"
+        ],
+        "contrast_concepts": [
+          "official_catholic_doctrine",
+          "protestant_iconoclasm"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Charles J.-H. Macdonald",
+            "year": "2004",
+            "title": "Folk Catholicism and Pre-Spanish Religions in the Philippines",
+            "source_type": "journal article",
+            "why_it_was_used": "Directly analyzes syncretic continuities and discontinuities."
+          },
+          {
+            "authors": "Fenella Cannell",
+            "year": "1999",
+            "title": "Power and Intimacy in the Christian Philippines",
+            "source_type": "book",
+            "why_it_was_used": "Ethnographic account of Catholic social life and relational power."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "benevolent_assimilation",
+      "label": "Benevolent assimilation",
+      "canonical_name": "Benevolent assimilation",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "colonial_legacy",
+      "parent_domain_label": "Colonial legacy and historical consciousness",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A U.S. colonial doctrine framing conquest as tutelage and modernization, legitimizing paternalist governance through English education, public health, and administrative restructuring.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "americanization",
+          "public_schooling",
+          "pensionado",
+          "colonial_mentality"
+        ],
+        "contrast_concepts": [
+          "anti_colonial_nationalism"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Stuart Creighton Miller",
+            "year": "1982",
+            "title": "Benevolent Assimilation",
+            "source_type": "book",
+            "why_it_was_used": "Definitive historical study of U.S. conquest ideology and practice."
+          },
+          {
+            "authors": "Vicente L. Rafael",
+            "year": "2000",
+            "title": "White Love and Other Events in Filipino History",
+            "source_type": "book",
+            "why_it_was_used": "Analyzes intimacy, translation, and power in U.S. colonial discourse."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "colonial_mentality",
+      "label": "Colonial mentality",
+      "canonical_name": "Colonial mentality",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "colonial_legacy",
+      "parent_domain_label": "Colonial legacy and historical consciousness",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "Internalized beliefs and practices that devalue Filipino people or culture while privileging colonizer-associated aesthetics, languages, institutions, and social norms.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "english_prestige",
+          "skin_whitening",
+          "decolonization",
+          "mestiza_privilege"
+        ],
+        "contrast_concepts": [
+          "indigenization",
+          "cultural_reclamation"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "E. J. R. David",
+            "year": "2013",
+            "title": "Brown Skin, White Minds",
+            "source_type": "book",
+            "why_it_was_used": "Most cited framework operationalizing colonial mentality in Filipino contexts."
+          },
+          {
+            "authors": "E. J. R. David",
+            "year": "2008",
+            "title": "A Colonial Mentality Model of Depression for Filipino Americans",
+            "source_type": "journal article",
+            "why_it_was_used": "Shows psychosocial mechanisms in diaspora mental health."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mestiza_privilege",
+      "label": "Mestiza / mestizo privilege",
+      "canonical_name": "Mestiza / mestizo privilege",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "colonial_legacy",
+      "parent_domain_label": "Colonial legacy and historical consciousness",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A colonial and postcolonial hierarchy that associates lighter-skinned, mixed, or white-adjacent appearance with prestige and mobility, variably mediated by class, media, and region.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "colorism",
+          "beauty_standard",
+          "class_status",
+          "colonial_mentality"
+        ],
+        "contrast_concepts": [
+          "morena_pride",
+          "indigenous_identity"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "E. J. R. David",
+            "year": "2013",
+            "title": "Brown Skin, White Minds",
+            "source_type": "book",
+            "why_it_was_used": "Connects colonial history with contemporary racialized beauty norms."
+          },
+          {
+            "authors": "Paul A. Kramer",
+            "year": "2006",
+            "title": "The Blood of Government",
+            "source_type": "book",
+            "why_it_was_used": "Historical analysis of U.S. imperial racial formations affecting Filipino hierarchies."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "settler_colonialism_mindanao",
+      "label": "Settler colonialism in Mindanao",
+      "canonical_name": "Settler colonialism in Mindanao",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "colonial_legacy",
+      "parent_domain_label": "Colonial legacy and historical consciousness",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "The long arc of frontier settlement in Mindanao under Spanish, American, and especially Philippine-state regimes that dispossessed Moro and Lumad communities while normalizing Christian settler claims to land and nation.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "bangsamoro",
+          "land_dispossession",
+          "internal_colonialism",
+          "mindanao_frontier"
+        ],
+        "contrast_concepts": [
+          "ancestral_domain",
+          "self_determination"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Patricio N. Abinales",
+            "year": "2000",
+            "title": "Making Mindanao",
+            "source_type": "book",
+            "why_it_was_used": "Core account of state formation and frontier politics in Mindanao."
+          },
+          {
+            "authors": "Thomas M. McKenna",
+            "year": "1998",
+            "title": "Muslim Rulers and Rebels",
+            "source_type": "book",
+            "why_it_was_used": "Ethnographic and political grounding for conflict and dispossession dynamics."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "balikbayan",
+      "label": "Balikbayan",
+      "canonical_name": "Balikbayan",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "diaspora_identity",
+      "parent_domain_label": "Filipino-American and diaspora identity",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A return-migrant or return-visitor figure through which diaspora and state institutions negotiate homecoming, obligation, class display, and belonging to the homeland.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "balikbayan_box",
+          "diaspora_tourism",
+          "homeland",
+          "transnational_nostalgia"
+        ],
+        "contrast_concepts": [
+          "nonreturn",
+          "exile"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Cynthia S. Blanc",
+            "year": "1996",
+            "title": "Balikbayan: A Filipino Extension of the National Imaginary",
+            "source_type": "journal article",
+            "why_it_was_used": "Classic article theorizing balikbayan within national imagination."
+          },
+          {
+            "authors": "Adrian De Leon",
+            "year": "2026",
+            "title": "Balikbayan: A Revenant History of the Filipino Homeland",
+            "source_type": "book",
+            "why_it_was_used": "Recent historiographic treatment of balikbayan politics and empire linkages."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "filipinx",
+      "label": "Filipinx",
+      "canonical_name": "Filipinx",
+      "aliases": [],
+      "status": "populated_with_caution",
+      "parent_domain_id": "diaspora_identity",
+      "parent_domain_label": "Filipino-American and diaspora identity",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A gender-inclusive diasporic label used especially in U.S. activist and academic spaces, embraced by some as queer/trans-inclusive and critiqued by others as linguistically unnecessary, externally imposed, or U.S.-centric.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "filipino_american",
+          "queer_diaspora",
+          "gender_inclusive_language"
+        ],
+        "contrast_concepts": [
+          "filipino",
+          "pilipino",
+          "pinoy_pinay"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Denise Cruz",
+            "year": "2023",
+            "title": "On Filipinx: Who Gets to Name Whom?",
+            "source_type": "journal article",
+            "why_it_was_used": "Direct treatment of naming politics and power in Filipinx usage."
+          },
+          {
+            "authors": "Alon: Journal for Filipinx American and Diasporic Studies",
+            "year": "2023",
+            "title": "Debates on Filipinx terminology",
+            "source_type": "journal",
+            "why_it_was_used": "Community-grounded scholarly venue for diasporic language debates."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "overseas_filipino_worker",
+      "label": "Overseas Filipino Worker (OFW)",
+      "canonical_name": "Overseas Filipino Worker",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "diaspora_identity",
+      "parent_domain_label": "Filipino-American and diaspora identity",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A state-recognized labor-migrant category whose remittances are celebrated as national lifelines even as labor precarity, deskilling, and family separation are normalized.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "bagong_bayani",
+          "transnational_family",
+          "labor_brokerage_state",
+          "remittance"
+        ],
+        "contrast_concepts": [
+          "permanent_settler_migrant"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Robyn Magalit Rodriguez",
+            "year": "2010",
+            "title": "Migrants for Export",
+            "source_type": "book",
+            "why_it_was_used": "Defines labor brokerage state framework for OFW governance."
+          },
+          {
+            "authors": "Rhacel Salazar Parreñas",
+            "year": "2005",
+            "title": "Children of Global Migration",
+            "source_type": "book",
+            "why_it_was_used": "Shows family and care consequences of labor migration."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "transnational_family",
+      "label": "Transnational family",
+      "canonical_name": "Transnational family",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "diaspora_identity",
+      "parent_domain_label": "Filipino-American and diaspora identity",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A family formation stretched across borders through remittances, digital intimacy, serial migration, and redistributed care work rather than co-resident household life.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "overseas_filipino_worker",
+          "care_chain",
+          "left_behind_children",
+          "kin_obligation",
+          "utang_na_loob",
+          "hiya",
+          "smooth_interpersonal_relations",
+          "pakikisama",
+          "kapwa"
+        ],
+        "contrast_concepts": [
+          "co_resident_household"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Rhacel Salazar Parreñas",
+            "year": "2005",
+            "title": "Children of Global Migration",
+            "source_type": "book",
+            "why_it_was_used": "Seminal analysis of transnational care and family restructuring."
+          },
+          {
+            "authors": "Yen Le Espiritu",
+            "year": "2003",
+            "title": "Home Bound",
+            "source_type": "book",
+            "why_it_was_used": "Connects Filipino diasporic family life to war and empire."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "asog",
+      "label": "Asog",
+      "canonical_name": "Asog",
+      "aliases": [],
+      "status": "populated_with_caution",
+      "parent_domain_id": "gender_sexuality",
+      "parent_domain_label": "Gender, sexuality, and family roles",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A historical Visayan term for gender-crossing ritual specialists associated with babaylanic practice, useful for interpreting early colonial records but not directly equivalent to modern LGBT identity labels.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "babaylan",
+          "gender_variance",
+          "ritual_specialist",
+          "bayog"
+        ],
+        "contrast_concepts": [
+          "modern_lgbt_identity"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "J. Neil C. Garcia",
+            "year": "1999",
+            "title": "Baylan, Asog, Transvestism, and Sodomy",
+            "source_type": "journal article",
+            "why_it_was_used": "Key textual analysis of early colonial representations."
+          },
+          {
+            "authors": "Grace Nono",
+            "year": "2021",
+            "title": "Babaylan Sing Back",
+            "source_type": "book",
+            "why_it_was_used": "Links historical categories to contemporary cultural memory."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bakla",
+      "label": "Bakla",
+      "canonical_name": "Bakla",
+      "aliases": [],
+      "status": "populated",
+      "parent_domain_id": "gender_sexuality",
+      "parent_domain_label": "Gender, sexuality, and family roles",
+      "kg_fields": {
+        "historical_or_contested": false,
+        "tagalog_centric": true
+      },
+      "populate_fields": {
+        "definition_dense": "A Tagalog sexual/gender category historically linking effeminacy, same-sex desire, gender variance, and social style in ways that do not map cleanly onto Western gay/trans binaries.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "swardspeak",
+          "tomboy_philippines",
+          "bayot",
+          "parlorista"
+        ],
+        "contrast_concepts": [
+          "gay_western_identity",
+          "cisheteromasculinity"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Martin F. Manalansan IV",
+            "year": "2003",
+            "title": "Global Divas",
+            "source_type": "book",
+            "why_it_was_used": "Landmark ethnography of bakla life and diaspora performance."
+          },
+          {
+            "authors": "J. Neil C. Garcia",
+            "year": "2008",
+            "title": "Philippine Gay Culture",
+            "source_type": "book",
+            "why_it_was_used": "Historical and literary analysis of bakla category formation."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bayot",
+      "label": "Bayot",
+      "canonical_name": "Bayot",
+      "aliases": [],
+      "status": "populated_with_caution",
+      "parent_domain_id": "gender_sexuality",
+      "parent_domain_label": "Gender, sexuality, and family roles",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "A Cebuano/Visayan category for effeminate queer men or feminine male same-sex subjects that overlaps with but is not reducible to Tagalog bakla, making it essential for Visayan-centered analysis.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "bakla",
+          "bisaya_visayan",
+          "cebuano_literature",
+          "swardspeak"
+        ],
+        "contrast_concepts": [
+          "bakla_tagalog",
+          "straight_masculinity"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "Michael L. Tan",
+            "year": "2001",
+            "title": "Survival through Pluralism",
+            "source_type": "essay",
+            "why_it_was_used": "Discusses plural local sexual categories including Visayan contexts."
+          },
+          {
+            "authors": "Regional Cebuano queer scholarship",
+            "year": "2021",
+            "title": "Ang Bayot ug ang Baybayon",
+            "source_type": "journal/essay",
+            "why_it_was_used": "Provides vernacular framing beyond Manila-centric vocabularies."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tomboy_philippines",
+      "label": "Tomboy (Philippines)",
+      "canonical_name": "Tomboy (Philippines)",
+      "aliases": [],
+      "status": "populated_with_caution",
+      "parent_domain_id": "gender_sexuality",
+      "parent_domain_label": "Gender, sexuality, and family roles",
+      "kg_fields": {
+        "historical_or_contested": true,
+        "tagalog_centric": false
+      },
+      "populate_fields": {
+        "definition_dense": "In Philippine usage, tomboy often names female masculinity and may index lesbian, butch, transmasculine, or gender-nonconforming lives depending on locality, generation, and class.",
+        "cultural_context": "",
+        "functional_role": "",
+        "common_expressions_or_markers": "",
+        "regional_variation": "",
+        "diaspora_adaptation": "",
+        "boundary_conditions": "",
+        "common_misunderstandings": [],
+        "supersedes_or_reframes": [],
+        "keep_outdated_terms_as_aliases_only": [],
+        "related_concepts": [
+          "bakla",
+          "female_masculinity",
+          "lesbian",
+          "transmasculine"
+        ],
+        "contrast_concepts": [
+          "filipina_femininity"
+        ],
+        "source_quality_notes": "Seeded from scholarly monographs/articles plus select community sources; expand with full page-level citations in next pass.",
+        "scholarly_notes": "",
+        "citations": [
+          {
+            "authors": "SAGE Encyclopedia of Trans Studies",
+            "year": "2021",
+            "title": "Tomboys (Philippines)",
+            "source_type": "reference entry",
+            "why_it_was_used": "Provides concise transnationally legible framing of local usage."
+          },
+          {
+            "authors": "Kevin Leo Y. Nadal and Melissa Corpus",
+            "year": "2013",
+            "title": "Tomboys and Baklas",
+            "source_type": "book chapter",
+            "why_it_was_used": "Comparative treatment of Filipino/a queer categories."
+          }
+        ]
+      }
+    }
+  ]
 }
