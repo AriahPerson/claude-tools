@@ -3,11 +3,24 @@
   "owner": {
     "name": "Ariah Van Os"
   },
+  "metadata": {
+    "description": "Claude Code plugins for curated knowledge graphs and agent workflows"
+  },
   "plugins": [
     {
       "name": "psych-kg",
       "source": "./plugins/psych-kg",
-      "description": "Consensus psychology knowledge graph — 120 concepts with definitions, mechanisms, citations, and cross-references."
+      "description": "Consensus psychology knowledge graph - 120 concepts with definitions, mechanisms, citations, and cross-references."
+    },
+    {
+      "name": "filipino-culture-kg",
+      "source": "./plugins/filipino-culture-kg",
+      "description": "Curated Filipino culture knowledge graph with regional, diaspora, historical, and social context."
+    },
+    {
+      "name": "hermes-tweet",
+      "source": "./plugins/hermes-tweet",
+      "description": "Native Hermes Agent X/Twitter plugin for Xquik automation with read-first workflows and approval-gated actions. Not affiliated with X Corp."
     }
   ]
 }
